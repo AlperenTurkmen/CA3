@@ -48,6 +48,7 @@ def covid_stats():
         str(total_cases) + ' is the total case in ' + str(location) +'today.')
 
     announce(formatted_date)
+    announce(text_to_read_covid)
 
 def news_printer():
     import json
@@ -66,11 +67,10 @@ def news_api_caller():
     from datetime import date
     today = datetime.datetime.now()
     base_url = "https://newsapi.org/v2/top-headlines?"
-    api_key = "66fad8b9efda4f9e9327bd9b7abd488c"
-    api_key = "abba60cb95ca41ab96fc805234d90cf5"
-    country = "gb" #To edit the country
+    api_key = str(newsapikey)
+    country = str(postal_abbreviation) #To edit the country
     complete_url = base_url + "from=" + str(today) + "&country=" + country + "&apiKey=" + api_key
-    # print response object
+    print(complete_url)
     response = requests.get(complete_url)
     with open('temp.json', 'w') as news_file:
         json.dump(response.json(), news_file)
@@ -113,7 +113,7 @@ def weather_api_caller():
     import requests
     import json
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
-    api_key = "1645a2975bedad4d907a979d6339bb46"
+    api_key = str(weatherapikey)
     city_name = "exeter"
     complete_url = base_url + "q=" + city_name + "&appid=" + api_key
     # print response object
@@ -137,7 +137,6 @@ def alarm_checker():
         print(current_time)
         print(announcement_list)'''
         if str(sample['content']) != str(current_time):
-            covid_stats()
             covid_stats()
             print('Alarm saati')
             #weather_finished()

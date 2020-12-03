@@ -1,6 +1,6 @@
 import json
 conf = {
-   "newsapikey" : "66fad8b9efda4f9e9327bd9b7abd488c",
+   "newsapikey" : "abba60cb95ca41ab96fc805234d90cf5",
    "region" : "london",
    "country": "england",
    "country postal abbreviation" : "gb",
