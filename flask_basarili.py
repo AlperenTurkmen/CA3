@@ -67,6 +67,7 @@ def news_api_caller():
     today = datetime.datetime.now()
     base_url = "https://newsapi.org/v2/top-headlines?"
     api_key = "66fad8b9efda4f9e9327bd9b7abd488c"
+    api_key = "abba60cb95ca41ab96fc805234d90cf5"
     country = "gb" #To edit the country
     complete_url = base_url + "from=" + str(today) + "&country=" + country + "&apiKey=" + api_key
     # print response object
