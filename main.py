@@ -3,7 +3,7 @@ It targets to help the user by giving them instant notifications about covid
 (or else, the user can change the filters.). The user can also schedule an alarm to
 remind how serious covid-19 is
 
-Made by Alperen Türkmen'''
+Copyright (c) 2020 AlperenTurkmen'''
 import datetime
 import json
 import logging
