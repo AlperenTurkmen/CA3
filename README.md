@@ -2,7 +2,8 @@
 A website that briefs you about covid, you can set alarms in it to make announcements about covid cases, covid news or weather forecast.
 
 Installing the modules:
-  You must download and install these module to make this code run properly. In the following links, you can find how.
+  You must download and install these module to make this code run properly. In the following links, you can find how:
+  
   https://flask.palletsprojects.com/en/1.1.x/installation
 	
   https://publichealthengland.github.io/coronavirus-dashboard-api-python-sdk/pages/getting_started.html#installation
