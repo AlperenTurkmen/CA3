@@ -31,8 +31,11 @@ How to contact:
 
   Do not hesitate to contact me if you have a problem, desire, or suggestions.
 	
-  Alperen Turkmen 
+  Alperen Turkmen/Author
   
   https://github.com/AlperenTurkmen/
   
   at753@exeter.ac.uk
+  
+  MIT License 
+Copyright (c) 2020 AlperenTurkmen
